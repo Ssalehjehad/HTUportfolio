@@ -1,0 +1,291 @@
+body{
+    background-color:  #526272 !important ;
+}
+
+.Ccrop{
+    border-radius: 50%;
+}
+.Ccrop:hover{
+    border-radius: 50%;
+    transition: 0.2s;
+    box-shadow: 0 0 10px #2196f3,0 0 20px #2196f3,0 0 150px #2196f3;
+}
+.bg-secondary{
+   background-color:  #212529 !important;
+}
+.buttons5{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px ;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none !important;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    left: 25px;
+    top: 25px;
+}
+
+.buttons5:hover{
+    color: #255784;  
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+    transition-delay: 1s;
+    
+}
+.buttons5 span{
+    position: absolute;
+    display: block;
+}
+.buttons5 span:nth-child(1){
+    top: 0;
+    left :-100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#2196f3);
+}
+.buttons5:hover span:nth-child(1){
+    left: 100%;
+    transition: 1s;
+}
+.buttons5 span:nth-child(2){
+    top: -100%;
+    right :0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#2196f3);
+}
+.buttons5:hover span:nth-child(2){
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+.buttons5 span:nth-child(3){
+    bottom:  0;
+    right :-100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#2196f3);
+}
+.buttons5:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+.buttons5 span:nth-child(4){
+    bottom: -100%;
+    left :-0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#2196f3);
+}
+.buttons5:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+.conicons{
+    font-size: 22px !important; 
+}
+#background2{
+  background-color:  #212529;
+}
+.but2{
+    font-size: 15px;
+}
+.buttons5.but2{
+    top: 0px !important;
+   
+}
+#background3{
+    background-color:  #262d35;
+}
+.grow { 
+    transition: all .2s ease-in-out;
+ }
+.grow:hover {
+     transform: scale(1.15);
+ }
+ .hovercontact:hover{
+    color: #ddd7d7 !important;
+    transition: 0.5s;
+ }
+ .btnn{
+    width: 200px;
+    height: 60px;
+    background: none;
+    border: 4px solid;
+    color: #2196f3;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+    left: 40px;
+  }
+  
+  .btnn::before,.btnn::after{
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 4px;
+    background: #262d35;
+    transform: skewX(50deg);
+    transition: .4s linear;
+  }
+  
+  .btnn::before{
+    top: -4px;
+    left: 10%;
+  }
+  
+  .btnn::after{
+    bottom: -4px;
+    right: 10%;
+  }
+  
+  .btnn:hover::before{
+    left: 80%;
+  }
+  
+  .btnn:hover::after{
+    right: 80%;
+  }
+  .formgroup{
+      border-radius: 20px;
+  }
+  input[type="text"], input[type="email"]{
+      background-color: #3b4652;
+      outline: none !important;
+      border: 1px solid #4d5c6b;
+      color: white !important;
+  }
+  textarea{
+    background-color: #3b4652;
+    outline: none;
+    color: white;
+    border: 1px solid #4d5c6b;
+      }
+      textarea:focus{
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        border: 1px solid white;
+      }
+  .btn-primary{
+      background-color: #3b4652 !important;
+      color: gold;
+      border: none;
+  }
+  .btn-primary:hover{
+    background-color: #3b4652 !important;
+    color: gold;
+    border: none;
+}
+.btn-primary:focus{
+    background-color: #3b4652 !important;
+    color: gold;
+    border: none;
+}
+.btn-primary:active{
+    background-color: #3b4652 !important;
+    color: gold;
+    border: none;
+}
+.btn-primary:disabled{
+    background-color: #3b4652 !important;
+    color: gold;
+    border: none;
+}
+.btn-primary:enabled{
+    background-color: #3b4652 !important;
+    color: gold;
+    border: none;
+}
+  .form-control:focus{
+      outline: none !important;
+      border: 1px solid #ccc !important;
+      background-color: #3b4652;
+  }
+  #Email1{
+      color: rgba(255, 217, 0, 0.836);
+  }
+  .stars{
+      font-size: 14px;
+  }
+  .starsdiv ul > li .stars{
+      float: right;
+      color: gold;
+      transition: all .2s ease-in-out;
+      padding-right: 10px;
+  }
+  .starsdiv ul > li .stars:hover{
+   transform: scale(1.2);
+   transition: 0.4s;
+}
+.starsdiv ul > li{
+   line-height: 1.5;
+    transform: scale(1.1);
+   transition: 0.4s;
+   margin: 19px 0;
+   color: rgba(255, 255, 255, 0.884);
+ }
+.starsdiv ul > li:hover{
+    background-color:#3b4652 ;
+ }
+
+ .starss{
+    font-size: 14px;
+    float: right;
+    color: gold;
+    transition: all .2s ease-in-out;
+    padding-right: 10px;
+ }
+ .starslan{
+    font-size: 14px;
+    float: right;
+    color: gold;
+    transition: all .2s ease-in-out;
+    padding-right: 10px;
+ }
+ .starslan:hover{
+    transform: scale(1.2);
+    transition: 0.4s;
+ }
+ .horz{
+     background-color: goldenrod;
+     border: none;
+     height: 1px;
+ }
+ .gallaryworks{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    margin: 5% auto 0;
+    box-sizing: border-box;
+}
+.image-box{
+    margin: 0 1%;
+    flex-grow: 1;
+    flex-basis: 0;
+    transition: 0.5s;
+}
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.image-box:hover{
+    flex-basis: 50%;
+}
+.active{
+    flex-basis: 50%;
+}
+.gallaryworks:hover .active{
+    flex-basis: 0;
+}
+.image-box:nth-child(1):hover{
+    flex-basis: 50%;
+}
+ 
